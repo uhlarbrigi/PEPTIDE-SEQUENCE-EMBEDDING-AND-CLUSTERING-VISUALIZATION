@@ -4,16 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 # !TODO: Change these settings
-name = "example_package"
-version = "0.0"
+name = "ProtY"
+version = "1.0"
 authors = [
-  { name="Kristóf Müller"},
-  { name="You"},
+  { name="Csapó Bence"},
+  { name="Galló Dominik"},
+  { name="Uhlár Brigitta"}
 ]
 maintainers = [
-  { name="Kristóf Müller", email = "muller.kristof@itk.ppke.hu"},
+  { name="Csapó Bence, Galló Dominik, Uhlár Brigitta", email = "uhlarbrigi@gmail.com"},
 ]
-description = "An example package"
+description = "The project is about using a pretrained protein transformer architecture to create embeddings of various proteins, and then performing nonlinear dimensionality reduction on those embeddings to see which kinds of similarities in protein function/structure we can restore"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = "GPL-3.0-only"
 license-files = ["LICENSE"]
@@ -33,7 +34,7 @@ dependencies = {file = ["requirements.txt"]}
 # !TODO: Change these settings
 Homepage = "http://your-git.com"
 Documentation = "http://your-readthedocs.com"
-Repository = "http://your-git.git"
+Repository = "https://github.com/uhlarbrigi/PEPTIDE-SEQUENCE-EMBEDDING-AND-CLUSTERING-VISUALIZATION.git"
 Issues = "http://your-git.com/issues"
 
 [tool.setuptools]

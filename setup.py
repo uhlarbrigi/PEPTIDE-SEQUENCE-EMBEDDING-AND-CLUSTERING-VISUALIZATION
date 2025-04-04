@@ -1,4 +1,6 @@
 from setuptools import setup
+pip install fair-esm
+
 
 # Parse README.md as long_description
 with open("README.md", "r", encoding="utf-8") as f:
@@ -11,7 +13,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 # !TODO: Change these settings
 setup(
     name="ProtY", # Name of the package
-    version="0.0",
+    version="1.0",
     description="The project is about using a pretrained protein transformer architecture to create embeddings of various proteins, and then performing nonlinear dimensionality reduction on those embeddings to see which kinds of similarities in protein function/structure we can restore.",
     author="Csapó Bence, Galló Dominik, Uhlár Brigitta",
     author_email="uhlarbrigi@gmail.com",
