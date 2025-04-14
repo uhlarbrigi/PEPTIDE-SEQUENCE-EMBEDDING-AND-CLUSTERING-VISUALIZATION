@@ -1,6 +1,6 @@
 version: 2
 build:
-  os: ubuntu-20.04.5
+  os: ubuntu-20.04
 python:
   version: 3.8  # or your required Python version
   install:
