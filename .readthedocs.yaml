@@ -6,7 +6,7 @@ build:
     python: "3.10"
 
 sphinx:
-  configuration: PEPTIDE-SEQUENCE-EMBEDDING-AND-CLUSTERING-VISUALIZATION/source/conf.py
+  configuration: source/conf.py
 
 python:
   install:
