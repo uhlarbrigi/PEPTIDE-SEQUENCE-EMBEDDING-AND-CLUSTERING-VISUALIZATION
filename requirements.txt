@@ -10,3 +10,4 @@ nolds>=0.5.2
 tqdm>=4.64.1 
 pyQt5>=5.15.7
 fair-esm>=0.1.0
+sphinx_rtd_theme
