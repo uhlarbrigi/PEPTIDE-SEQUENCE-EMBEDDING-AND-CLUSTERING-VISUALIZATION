@@ -27,6 +27,15 @@ Install
     modules
 
 
+Git Hub
+-----------------
+The code for this project is available on GitHub at the following link:  
+https://github.com/uhlarbrigi/PEPTIDE-SEQUENCE-EMBEDDING-AND-CLUSTERING-VISUALIZATION.git
+
+
+
+
+
 Indices and tables
 ==================
 
