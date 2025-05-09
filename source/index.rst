@@ -24,13 +24,24 @@ Install
    :maxdepth: 2
    :caption: Contents:
 
-    modules
+    .. automodule:: ProtY.worky_worky.load_fasta_sequences
+    .. automodule:: ProtY.worky_worky.load_fasta_sequences_from_folder
+    .. automodule:: ProtY.worky_worky.extract_embeddings
+    .. automodule:: ProtY.worky_worky.reduce_emeddings
+    .. automodule:: ProtY.worky_worky.plot_embeddings
+    .. automodule:: ProtY.worky_worky.pipeline
 
 
 Git Hub
 -----------------
 The code for this project is available on GitHub at the following link:  
 https://github.com/uhlarbrigi/PEPTIDE-SEQUENCE-EMBEDDING-AND-CLUSTERING-VISUALIZATION.git
+
+
+Google Colab
+-----------------
+The code for this project, for demo is available on Google Colab at the following link:
+https://colab.research.google.com/drive/1FYW5WVtZ_9n3e8NeK7YANI2zT2-gxNxb?usp=sharing
 
 
 
