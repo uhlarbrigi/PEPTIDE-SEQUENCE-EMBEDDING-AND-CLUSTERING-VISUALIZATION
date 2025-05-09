@@ -91,7 +91,7 @@ def plot_embeddings(dim_red:str, reduced_embeddings: pd.DataFrame, labels: list=
     plt.figure(figsize=(8, 6))
     scatter = plt.scatter(reduced_embeddings[:, 0], reduced_embeddings[:, 1], c=labels, cmap="viridis", alpha=0.7)
     plt.colorbar(scatter, label="Labels" if labels is not None else "Color Scale")
-    plt.title('KALÁCSKÉPŰ')
+    plt.title('Reduced Embeddings using ')
     plt.xlabel(f"{dim_red} Component 1")
     plt.ylabel(f"{dim_red} Component 2")
     plt.show()
