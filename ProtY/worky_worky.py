@@ -8,7 +8,7 @@ from sklearn.manifold import TSNE
 
 
 from Bio import SeqIO
-from google.colab import drive
+#from google.colab import drive
 #drive.mount('/content/drive')
 
 def load_fasta_sequences(fasta_path):
