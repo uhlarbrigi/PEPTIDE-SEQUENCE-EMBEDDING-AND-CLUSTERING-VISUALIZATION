@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
-!pip install fair-esm
+
 import esm
 import torch
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
-!pip install biopython
+
 
 from Bio import SeqIO
 from google.colab import drive
