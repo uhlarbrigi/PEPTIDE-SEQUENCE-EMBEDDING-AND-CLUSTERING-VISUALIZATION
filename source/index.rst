@@ -1,12 +1,21 @@
 Welcome to ProtY's documentation!
 =================================
-.. automodule:: ProtY.worky_worky
-    :members:
+
+
+Ez a projekt erre meg erre jó.
+
+Ha fel akarod installálni akkor:
+
+..code-block:: bash
+
+    pip install proty
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+    modules
 
 
 Indices and tables
