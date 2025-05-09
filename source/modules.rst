@@ -4,5 +4,4 @@ ProtY
 ..toctree::
    :maxdepth: 4
 
-   ProtY
-   
+   worky_worky

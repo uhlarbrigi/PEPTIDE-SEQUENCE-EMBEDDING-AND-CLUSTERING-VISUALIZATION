@@ -1,10 +1,19 @@
 Welcome to ProtY's documentation!
 =================================
+This project is about using a pretrained protein transformer architecture to create embeddings 
+of various proteins, and then performing nonlinear dimensionality reduction on those embeddings 
+to see which kinds of similarities in protein function/structure we can restore.
+After installing, you can use it as a pipeline, or you can use it functiin by function.
+
+-------------------
+Current version: 1.0.0
+
+Release: 2025
 
 
-Ez a projekt erre meg erre jó.
 
-Ha fel akarod installálni akkor:
+Install
+-----------------
 
 ..code-block:: bash
 
