@@ -24,7 +24,7 @@ Install
    :maxdepth: 2
    :caption: Contents:
 
-    modules.. automodule:: ProtY.worky_worky.py
+    modules
 
 
 Indices and tables
