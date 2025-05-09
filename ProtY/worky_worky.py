@@ -96,7 +96,8 @@ def plot_embeddings(dim_red:str, reduced_embeddings: pd.DataFrame, labels: list=
     plt.ylabel(f"{dim_red} Component 2")
     plt.show()
 
-def pipeline(my_seqs: list, dim_red_method: str):
+def pipeline(filename: str, dim_red_method: str='tSNE'):
+  my_seqs = load_fasta_sequences(filename)
   embeddings = extract_embeddings(sequences=my_seqs)
   # Move to CPU and convert to numpy
   embeddings_np = embeddings.cpu().numpy()
@@ -104,8 +105,5 @@ def pipeline(my_seqs: list, dim_red_method: str):
   reduced_embeddings = reduce_emeddings(dim_red=dim_red_method, embeddings=embeddings_np, )
   plot_embeddings(dim_red=dim_red_method, reduced_embeddings=reduced_embeddings)
 
-my_seqs = load_fasta_sequences("/content/rcsb_pdb_all.fasta")
-pipeline(my_seqs=my_seqs, dim_red_method='tSNE')
-
-rcsb_pdb_all.fasta
+# pipeline(my_seqs=my_seqs, dim_red_method='tSNE')
 
