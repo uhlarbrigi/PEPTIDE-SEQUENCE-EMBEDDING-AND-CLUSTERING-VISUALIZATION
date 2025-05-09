@@ -40,3 +40,6 @@ Issues = "http://your-git.com/issues"
 [tool.setuptools]
 # Name of the package directory
 packages = ["example_package"]
+
+[project.optimal-dependencies]
+docs = ["sphinx" , "sphinx_rtd_theme"]
